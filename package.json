@@ -1,0 +1,14 @@
+{
+  "name": "@nestws/icons",
+  "description": "Nest Works Studio - Icons",
+  "homepage": "https://www.nestws.com",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nestws/icons.git"
+  },
+  "keywords": [
+    "icons"
+  ],
+  "license": "MIT"
+}
