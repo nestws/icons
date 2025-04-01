@@ -26,9 +26,7 @@ const generateCode = (name, data) => {
         return part.charAt(0).toUpperCase() + part.slice(1);
     }).join('');
 
-    var code = `'use strict';
-var  React = require('react');
-
+    var code = `var React = require('react');
 module.exports.Icon${fileName} = function (props) {
     return React.createElement(
         'svg',

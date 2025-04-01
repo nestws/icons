@@ -1,6 +1,4 @@
-'use strict';
-var  React = require('react');
-
+var React = require('react');
 module.exports.IconComments = function (props) {
     return React.createElement(
         'svg',
