@@ -51,7 +51,7 @@ const getPath = (data) => {
 const saveJsonFile = (results) => {
     const resultsStr = JSON.stringify(results, null, 2);
 
-    fs.writeFile('icons-list.json', resultsStr.toString(), (e) => {
+    fs.writeFile('docs/icons-list.json', resultsStr.toString(), (e) => {
         if (e) throw e;
         console.log('icons-list.json file saved!');
     });
@@ -59,7 +59,7 @@ const saveJsonFile = (results) => {
 
 // read and update json file
 const updateJsonFile = (categoryJson) => {
-    fs.readFile('icons-list.json', {encoding: 'utf-8'}, (err, data) => {
+    fs.readFile('docs/icons-list.json', {encoding: 'utf-8'}, (err, data) => {
         if (!err) {
             try {
                 const results = JSON.parse(data);
