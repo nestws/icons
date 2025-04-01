@@ -8,7 +8,27 @@
     "url": "https://github.com/nestws/icons.git"
   },
   "keywords": [
-    "icons"
+    "icon",
+    "icons",
+    "svg icons",
+    "sprite",
+    "svg sprite",
+    "react icons",
+    "react component icons",
+    "react js icons",
+    "nestws icons",
+    "nest works studio"
   ],
-  "license": "MIT"
+  "files": [
+    "icon/js",
+    "icon/sprite"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "node icons-build"
+  },
+  "devDependencies": {
+    "svgo": "^3.3.2",
+    "svgstore-cli": "^2.0.1"
+  }
 }
