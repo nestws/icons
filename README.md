@@ -1,13 +1,13 @@
 # nestws icons
 Icon components and SVG symbol sprites for your React projects, easy to use for developers.
 
-## Configuration Files:
-svgo.config.js\
+### Configuration Files
+svgo.config.js
 
-## Installed Packages:
-npm i -D svgo svgstore-cli
+### Installed Packages
+```npm i -D svgo svgstore-cli```
 
-## Documentation Links:
+### Documentation Links
 [SVGO](https://github.com/svg/svgo)\
 [SVGO Online Editor](https://jakearchibald.github.io/svgomg)
 
