@@ -1,8 +1,8 @@
 {
   "name": "@nestws/icons",
   "description": "Nest Works Studio - Icons",
-  "homepage": "https://www.nestws.com",
-  "version": "1.0.0",
+  "homepage": "https://github.com/nestws/icons/#readme",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/nestws/icons.git"
@@ -20,12 +20,12 @@
     "nest works studio"
   ],
   "files": [
-    "icon/js",
-    "icon/sprite"
+    "react",
+    "sprite"
   ],
   "license": "MIT",
-  "scripts": {
-    "build": "node icons-build"
+  "publishConfig": {
+    "devDependencies": false
   },
   "devDependencies": {
     "svgo": "^3.3.2",
