@@ -5,7 +5,7 @@
   "version": "1.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nestws/icons.git"
+    "url": "git+https://github.com/nestws/icons.git"
   },
   "keywords": [
     "icon",
