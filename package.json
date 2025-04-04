@@ -24,9 +24,6 @@
     "sprite"
   ],
   "license": "MIT",
-  "publishConfig": {
-    "devDependencies": false
-  },
   "devDependencies": {
     "svgo": "^3.3.2",
     "svgstore-cli": "^2.0.1"
